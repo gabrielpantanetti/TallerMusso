@@ -1,0 +1,63 @@
+@media (max-width: 677px) {
+    .contenUL {
+        width: 100% !important;
+        position: inherit !important;
+    }
+    .imageModal {
+        float: inherit !important;
+    }
+}
+
+.imageModal {
+    width: 100%;
+    float: left;
+    border-radius: 10px 5px;
+}
+
+.message-box {
+    padding-top: 5px !important;
+    list-style: outside;
+    text-align: left;
+}
+
+.contenUL {
+    background: #203A4E;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 10px 5px;
+}
+
+.message-box .rectificacion ul {
+    font-size: 12px;
+}
+
+.message-box ul {
+    list-style: circle;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.flexslider .slides {
+    padding-left: 0px !important;
+}
+
+.message-box ul li {
+    padding-bottom: 0.5rem;
+}
+
+.message-box ul ol {
+    list-style-type: ethiopic-halehame-am !important;
+}
+
+.message-box h2 {
+    font-size: 34px;
+    font-weight: 700;
+    padding: 0 0 10px;
+    margin: 0;
+    line-height: 62px;
+    margin-top: 0;
+    text-transform: none;
+}
