@@ -23,27 +23,10 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [              
-              "src/assets/css/magnific-popup.css"
-              ,"src/assets/css/animate.min.css"
-              ,"src/assets/css/font-awesome.min.css"            
-              ,"src/assets/css/nivo-lightbox.css"            
-              ,"src/assets/css/nivo_themes/default/default.css"            
-              ,"src/assets/css/hover-min.css"            
-              ,"src/assets/css/flexslider.css"            
-              ,"src/assets/css/style.css"            
-              ,"src/assets/css/icofont.css"            
-              ,"src/styles.css"
+            "styles": [
+              "src/assets/css/magnific-popup.css", "src/assets/css/animate.min.css", "src/assets/css/font-awesome.min.css", "src/assets/css/nivo-lightbox.css", "src/assets/css/nivo_themes/default/default.css", "src/assets/css/hover-min.css", "src/assets/css/flexslider.css", "src/assets/css/style.css", "src/assets/css/icofont.css", "src/styles.css"
             ],
-            "scripts": ["src/assets/js/jquery.js", "src/assets/js/bootstrap.min.js"
-              , "src/assets/js/jquery.magnific-popup.min.js", "src/assets/js/jquery.sticky.js"
-              , "src/assets/js/jquery.backstretch.min.js", "src/assets/js/isotope.js"
-              , "src/assets/js/imagesloaded.min.js", "src/assets/js/nivo-lightbox.min.js"
-              , "src/assets/js/jquery.flexslider-min.js", "src/assets/js/jquery.parallax.js"
-              , "src/assets/js/smoothscroll.js"
-              , "src/assets/js/wow.min.js"
-              , "src/assets/js/iconify.min.js"
-            ]
+            "scripts": ["src/assets/js/jquery.magnific-popup.min.js", "src/assets/js/jquery.sticky.js", "src/assets/js/jquery.backstretch.min.js", "src/assets/js/isotope.js", "src/assets/js/imagesloaded.min.js", "src/assets/js/nivo-lightbox.min.js", "src/assets/js/jquery.flexslider-min.js", "src/assets/js/jquery.parallax.js", "src/assets/js/smoothscroll.js", "src/assets/js/wow.min.js", "src/assets/js/iconify.min.js", "src/assets/js/bootbox.all.min.js"]
           },
           "configurations": {
             "production": {
