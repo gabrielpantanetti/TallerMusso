@@ -364,11 +364,6 @@
                                             data-src="assets/images/Servicios/1TORNERIA.jpg" alt="Flexslider"
                                             draggable="false">
                                     </li>
-                                    <!-- <li>
-                                        <img class="lazyload img-responsive"
-                                            data-src="assets/images/Servicios/1TORNERIA2.jpg" alt="Flexslider"
-                                            draggable="false">
-                                    </li> -->
                                     <li>
                                         <img class="lazyload img-responsive"
                                             data-src="assets/images/Servicios/1TORNERIA3.jpg" alt="Flexslider"
@@ -996,14 +991,16 @@
 
                     <form action="#" class="contact-form" [formGroup]='forma' (ngSubmit)="SubmitContactForm()">
                         <div [ngClass]="{ 'has-error': submitted && f.nombre.errors }">
-                            <input class="form-control" type="text" id="name" placeholder="Nombre" formControlName="nombre">
+                            <input class="form-control" type="text" id="name" placeholder="Nombre"
+                                formControlName="nombre">
                             <div *ngIf="submitted && f.nombre.errors" class="has-error">
                                 <div *ngIf="f.nombre.errors.required">Este campo es requerido</div>
                             </div>
                         </div>
 
                         <div [ngClass]="{ 'has-error': submitted && f.email.errors }">
-                            <input class="form-control" type="email" id="email" placeholder="Email" formControlName="email">
+                            <input class="form-control" type="email" id="email" placeholder="Email"
+                                formControlName="email">
                             <div *ngIf="submitted && f.email.errors" class="has-error">
                                 <div *ngIf="f.email.errors.required">Este campo es requerido</div>
                             </div>
@@ -1013,27 +1010,20 @@
                         </div>
 
                         <div class="form-group" [ngClass]="{ 'has-error': submitted && f.message.errors }">
-                            <textarea class="form-control" id="message" placeholder="Mensaje" rows="5"  formControlName="message"> </textarea>
+                            <textarea class="form-control" id="message" placeholder="Mensaje" rows="5"
+                                formControlName="message"> </textarea>
                             <div *ngIf="submitted && f.message.errors" class="has-error">
                                 <div *ngIf="f.message.errors.required">Este campo es requerido</div>
                             </div>
                         </div>
-
-                        <!-- <input name="name" type="text" class="form-control" placeholder="Nombre" required>
-                        <input name="email" type="email" class="form-control" placeholder="Email" required>
-                        <textarea name="message" class="form-control" placeholder="Mensaje" rows="5" required>
-                        </textarea> -->
                         <input type="submit" class="form-control submit" value="Enviar">
                     </form>
                 </div>
             </div>
-
         </div>
     </div>
 
 </section>
-
-<!-- <div id="googleMap" style="width:100%;height:380px;"></div> -->
 
 <div class="wow fadeInUp col-md-12 col-sm-12" data-wow-delay="0.4s">
     <div id="google-map">
@@ -1082,11 +1072,11 @@
             <div class="footer-containertent">
 
                 <ul class="footer-social-info">
-                    <li>
+                    <!-- <li>
                         <a href="#"><i class="fa fa-facebook"></i></a>
-                    </li>
+                    </li> -->
                     <li>
-                        <a href="#"><i class="fa fa-whatsapp"></i></a>
+                        <a target="_blank" href="https://wa.me/+5493513118684/?text=Hola+me+contacto+desde+la+Web."><i class="fa fa-whatsapp"></i></a>
                     </li>
 
                 </ul>
